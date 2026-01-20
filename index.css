@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 245, 238);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color: #2faded;
+  margin: 25px;
+  padding: 15px;
+  font-size: 80px;
+}
+
+p {
+  font-size: 20px;
+  text-align: Justify;
+}
+
+span {
+  font-size: 23px;
+  color: rgb(255, 69, 0);
+  font-style: italic;
+}
+
+h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.lista {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+ul {
+  margin: 10px 40px;
+  padding: 10px;
+  width: 310px;
+  height: 170px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(230, 230, 250);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 18px;
+  padding: 12px 15px;
+  border: 1px solid black;
+  text-align: left;
+}
+td {
+  margin: 18px;
+  padding: 12px 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+caption {
+  margin: 15px;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+
+img {
+  margin: auto;
+  height: 400px;
+  width: 600px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  color: blue;
+  font-size: 1.1rem;
+  margin-top: auto;
+  padding: 15px 0;
+}
